@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".IdentifyCarImage">
+
+    <ImageView
+        android:id="@+id/car_imageView1"
+        android:layout_width="244dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="76dp"
+        android:contentDescription="@string/car_image_1"
+        android:onClick="OnClickFirstImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/car_imageView2"
+        android:layout_width="244dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/car_image_2"
+        android:onClick="OnClickSecondImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_imageView1" />
+
+    <ImageView
+        android:id="@+id/car_imageView3"
+        android:layout_width="244dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/car_image_3"
+        android:onClick="OnClickThirdImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_imageView2" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="126dp"
+        android:layout_height="59dp"
+        android:onClick="OnClickNextButton"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="@color/buttoncolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/brand_textView"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/button_color3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/display_correct_wrong"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="72dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toEndOf="@+id/brand_textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

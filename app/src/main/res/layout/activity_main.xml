@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:scrollbarSize="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/identifyTheCarMake"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button_corners"
+        android:onClick="launchIdentifyBrandName"
+        android:text="@string/identify_the_car_make"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:backgroundTint="@color/buttoncolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <Button
+        android:id="@+id/hintsButton"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button_corners"
+        android:onClick="launchHints"
+        android:text="@string/hints"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:backgroundTint="@color/buttoncolor3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/identifyTheCarMake" />
+
+    <Button
+        android:id="@+id/identifyTheCarImage"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button_corners"
+        android:onClick="launchIdentifyCarImage"
+        android:text="@string/identify_the_car_image"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:backgroundTint="@color/buttoncolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hintsButton"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/advancedLevel"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button_corners"
+        android:onClick="launchAdvancedLevel"
+        android:text="@string/advanced_level"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:backgroundTint="@color/buttoncolor3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/identifyTheCarImage"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="404dp"
+        android:layout_height="356dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/carimagee" />
+
+    <Switch
+        android:id="@+id/switch_btn"
+        android:layout_width="52dp"
+        android:layout_height="28dp"
+        android:background="@color/black"
+        android:shadowColor="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467" />
+
+    <TextView
+        android:id="@+id/logoName"
+        android:layout_width="408dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="@string/speed_dragon"
+        android:textAlignment="center"
+        android:textColor="@color/color4"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

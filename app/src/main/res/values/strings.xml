@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Speed Dragon</string>
+    <string name="identify_the_car_make">Identify the Car Make</string>
+    <string name="hints">Hints</string>
+    <string name="identify_the_car_image">Identify the Car Image</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="car_game_logo">car game logo</string>
+    <string name="string_car_game_logo">logo</string>
+    <string name="display_car_images">display car images</string>
+    <string name="back">back</string>
+    <string name="identify">Identify</string>
+    <string name="car_image_1">car_image_1</string>
+    <string name="car_image_2">car_image_2</string>
+    <string name="car_image_3">car_image_3</string>
+    <string name="next">Next</string>
+    <string name="wrong">WRONG !</string>
+    <string name="ok">OK</string>
+    <string name="correct">CORRECT!</string>
+    <string name="enter_a_letter">Enter a letter</string>
+    <string name="answerlabel">answerLabel</string>
+    <string name="incorrect_guess">Incorrect Guess</string>
+    <string name="CORRECT">CORRECT !</string>
+    <string name="SUBMIT">Submit</string>
+    <string name="WRONG">WRONG !</string>
+    <string name="submit">Submit</string>
+    <string name="textviewstring">textViewString</string>
+    <string name="speed_dragon">Speed Dragon</string>
+    <string-array name="brand_names">
+        <item>alfa_romeo</item>
+        <item>amg</item>
+        <item>audi</item>
+        <item>bentley</item>
+        <item>bmw</item>
+        <item>cadillac</item>
+        <item>chevrolet</item>
+        <item>citroen</item>
+        <item>dacia</item>
+        <item>ferrari</item>
+        <item>fiat</item>
+        <item>genesis</item>
+        <item>hyundai</item>
+        <item>infiniti</item>
+        <item>kia</item>
+        <item>lamborgini</item>
+        <item>lotus</item>
+        <item>maserati</item>
+        <item>mazda</item>
+        <item>mercedes_benz</item>
+        <item>mini</item>
+        <item>mitsubishi</item>
+        <item>opel</item>
+        <item>proton</item>
+        <item>rolls_royce</item>
+        <item>saab</item>
+        <item>smart</item>
+        <item>tesla</item>
+        <item>vauxhall</item>
+        <item>volvo</item>
+
+
+    </string-array>
+</resources>

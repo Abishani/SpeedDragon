@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carguessgamecw">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logodesign"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logodesign"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CarGuessGameCW">
+        <activity
+            android:name=".WrongAnswer"
+            android:theme="@style/Theme.CarGuessGameCW.CustomTheme">
+        </activity>
+        <activity
+            android:name=".CorrectAnswer"
+            android:theme="@style/Theme.CarGuessGameCW.CustomTheme"   />
+        <activity
+            android:name=".AdvancedLevel"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.carguessgamecw.MainActivity" />
+        </activity>
+        <activity
+            android:name=".IdentifyCarImage"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.carguessgamecw.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Hints"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.carguessgamecw.MainActivity" />
+        </activity>
+        <activity
+            android:name=".IdentifyBrandName"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.carguessgamecw.MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+
+</manifest>
